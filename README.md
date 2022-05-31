@@ -1,5 +1,7 @@
 # rock paper scissors
-takes in r for rock, p for paper and s for scissors
+This code is a game between the user and the computer. 
+It uses randomly generated value for computer while the user inputs;
+r for rock, p for paper and s for scissors
 Any other thing results in an error- invalid input.
  
 
