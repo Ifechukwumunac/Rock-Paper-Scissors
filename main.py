@@ -16,7 +16,8 @@ i = False
 print('\n'.strip())
 while i == False:
     computer_input = random.choice(option)
-    print (computer_input)
+    #just for testing sake
+    #print (computer_input)
     #take in user input
     user_input = input(' computer played \n your turn, Rock Paper Scissors?')
     #just to be more user friendly ,accept lower case
