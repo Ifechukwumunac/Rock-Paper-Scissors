@@ -47,12 +47,14 @@ while i == False:
             print ('computer wins') 
             m = input ('do you want to play again? [y/n]')
             if m.lower() == 'y':
-                i = False       
+                i = False 
+            else i = True
     elif (i == 'R' and computer_input == 'S') or (i == 'P' and computer_input == 'R') or (i == 'S' and computer_input == 'P'):
             print ('You won')
             m = input ('do you want to play again? [y/n]')
             if m.lower() == 'y':
-                i = False  
+                i = False 
+            else i = True
     # if its a tie                
     elif i == computer_input:
         print('its a tie')
